@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    place-items: center;
+    background: black;
+    color:  white;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: rgb(185, 43, 185);
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+    color: hotpink;
+}
+button{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 60px;
+    width: 55px;
+    height: 25px;
+    font-size: 15px;
+}
+#reset{
+    color: white;
+    background: red;
+    border:3px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: all 0.3s ease;
+}
+#reset:hover{
+    box-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow;
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+    border-color: yellow;
+}
+#reset:active{
+    transform: scale(0.9);
+    box-shadow:  0 0 10px yellow, 0 0 15px yellow, 0 0 20px yellow;
+}
+#botao{
+    color: white;
+    background: green;
+    border:3px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px green;
+    transition: all 0.3s ease;
+}
+#botao:hover{
+    box-shadow: 0 0 5px green, 0 0 10px green, 0 0 15px green;
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+    border-color: green;
+}
+#botao:active{
+    box-shadow: 0 0 10px yellow;
+    border-color: yellow;
+    transform: scale(0.9);
+}
